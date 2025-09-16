@@ -1,43 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>ChatFoco - Organize seus pensamentos</title>
     
-    <meta name="description" content="Dualite Alpha Generated Project" />
-    <meta name="author" content="Dualite Alpha" />
+    <meta name="description" content="Aplicativo de chat desenvolvido especialmente para pessoas com TDAH. Interface limpa, modo foco e redução de sobrecarga cognitiva." />
+    <meta name="author" content="ChatFoco" />
 
-    <meta property="og:title" content="vite + react + ts" />
-    <meta property="og:description" content="Dualite Alpha Generated Project" />
+    <meta property="og:title" content="ChatFoco - Organize seus pensamentos" />
+    <meta property="og:description" content="Aplicativo de chat desenvolvido especialmente para pessoas com TDAH. Interface limpa, modo foco e redução de sobrecarga cognitiva." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://alpha.dualite.dev" />
-    <meta property="og:image" content="https://ibb.co/67X3xfSV" />
-    <meta property="og:image:width" content="960" />
-    <meta property="og:image:height" content="600" />
-    <meta property="og:image:alt" content="Screenshot of the Dualite Alpha Generated Project" />
+    <meta property="og:url" content="https://chatfoco.app" />
+    <meta property="og:image" content="https://chatfoco.app/preview.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="ChatFoco - Interface limpa para pessoas com TDAH" />
     
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="vite + react + js" />
-    <meta name="twitter:description" content="Dualite Alpha Generated Project" />
-    <meta name="twitter:site" content="@dualitedev" />
-    <meta name="twitter:image" content="https://ibb.co/67X3xfSV" />
+    <meta name="twitter:title" content="ChatFoco - Organize seus pensamentos" />
+    <meta name="twitter:description" content="Aplicativo de chat desenvolvido especialmente para pessoas com TDAH. Interface limpa, modo foco e redução de sobrecarga cognitiva." />
+    <meta name="twitter:site" content="@chatfoco" />
+    <meta name="twitter:image" content="https://chatfoco.app/preview.png" />
 
-    <link rel="canonical" href="https://alpha.dualite.dev" />
+    <link rel="canonical" href="https://chatfoco.app" />
 
-     <script type="application/ld+json">
+    <!-- Suporte para safe-area em dispositivos móveis -->
+    <meta name="theme-color" content="#3b82f6" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+    <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "AlphaProject",
-      "url": "https://alpha.dualite.dev",
-      "description": "Dualite Alpha Generated Project",
+      "@type": "WebApplication",
+      "name": "ChatFoco",
+      "url": "https://chatfoco.app",
+      "description": "Aplicativo de chat desenvolvido especialmente para pessoas com TDAH",
+      "applicationCategory": "ProductivityApplication",
+      "operatingSystem": "Web Browser",
       "publisher": {
         "@type": "Organization",
-        "name": "Dualite Alpha",
+        "name": "ChatFoco"
       }
     }
     </script>
+
+    <style>
+      /* Prevenção de flash sem estilo e suporte para reduced motion */
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+      
+      /* Safe area support */
+      body {
+        padding: env(safe-area-inset-top, 0) env(safe-area-inset-right, 0) env(safe-area-inset-bottom, 0) env(safe-area-inset-left, 0);
+      }
+    </style>
 
   </head>
   <body>
